@@ -1,3 +1,6 @@
+# Cloud DevSecOps Lab
+## Setting Up AWS Cloud9
+AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
 1. Create a Cloud9 Environment with the following url:
 https://ap-southeast-1.console.aws.amazon.com/cloud9control/home?region=ap-southeast-1#/product
 2. Select Create environment.

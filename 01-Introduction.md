@@ -1,5 +1,5 @@
 # Cloud DevSecOps for Terraform with Prisma Cloud Hands on Lab
-## PRISMA CLOUD BY PALO ALTO NETWORKS
+## Prisma Cloud by Palo Alto Networks
 
 ### Introduction
 In this workshop, you’ll learn how to leverage infrastructure as code (IaC) and DevSecOps to automate, scale, and improve the security posture of your cloud infrastructure. We’ll create a pipeline that provides frequent, easy-to-digest improvements to ensure our configurations are secure and compliant from the build-time to runtime.
