@@ -1,3 +1,4 @@
+![alt text](/resources/PRISMA_CLOUD_LOGO_color_dark_background.png?raw=true)
 # Cloud DevSecOps for Terraform with Prisma Cloud Hands on Lab
 ## Prisma Cloud by Palo Alto Networks
 
