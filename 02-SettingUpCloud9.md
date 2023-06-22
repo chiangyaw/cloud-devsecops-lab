@@ -24,3 +24,5 @@ sudo yum install jq -y
 python3 -m venv env
 source ./env/bin/activate 
 ```
+
+Once you are done setting up your Cloud9 IDE, you can move on to the next section [here](/03-PreparingTerraformCloud.md)

@@ -28,6 +28,6 @@ We will also be using Yor, an open-srouce tool from Prisma Cloud (formally bridg
 wget -q -O - https://github.com/bridgecrewio/yor/releases/download/0.1.62/yor-0.1.62-linux-amd64.tar.gz | sudo tar -xvz -C /usr/bin
 ```
 
-
+Once you are done setting up Prisma Cloud environment, you can move on to the next section [here](/05-IaCScanning.md)
 
 

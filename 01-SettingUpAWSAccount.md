@@ -15,3 +15,5 @@ ap-southeast-1 (Asia Pacific - Singapore)
 ```
 Please select Asia Pacific (Singapore) in the top right corner.
 ![Alt text](/resources/console-home-sg.png?raw=true)
+
+Once you are done setting up your AWS account, you can move on to the next section [here](/02-SettingUpCloud9.md)!

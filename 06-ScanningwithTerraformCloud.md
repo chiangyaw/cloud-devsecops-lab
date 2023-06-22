@@ -20,19 +20,25 @@ For Event Engine, it will look like this:
 **Note: Please make sure you are adding them as Environment variable, not Terraform variable.**
 ![alt text](/resources/tc-workspace-env-var.png?raw=true)
 
-7. Create an API token from Terraform Cloud for the integration with Prisma Cloud. Go to the API token menu (User > Settings > Tokens) and select "Create an API token". Input a description such as, "Prisma Cloud Integration" and click "Generate Token". Copy the API token for the next step.
+7. Go to workspace Settings > General, under Terraform Working Directory, add the directory ```/terraform/simple_instance/```
+
+8. Create an API token from Terraform Cloud for the integration with Prisma Cloud. Go to the API token menu (User > Settings > Tokens) and select "Create an API token". Input a description such as, "Prisma Cloud Integration" and click "Generate Token". Copy the API token for the next step.
 ![alt text](/resources/tc-generate-token.png?raw=true)
 
-8. Head back to Prisma Cloud portal, go to Settings > Repositories > Add Repositories.
+9. Head back to Prisma Cloud portal, go to Settings > Repositories > Add Repositories.
 ![alt text](/resources/pc-add-repo-tc.png?raw=true)
 
-9. Choose Terraform Cloud (Run Tasks). In the Configure Account window, add the API token generated in the previous step. Click Next.
+10. Choose Terraform Cloud (Run Tasks). In the Configure Account window, add the API token generated in the previous step. Click Next.
 ![alt text](/resources/pc-add-tc-token.png?raw=true)
 
-10. In the Select Organization window, choose your organization created, click Next. In the Workspace window, select the workspace you have created, choose "Post-plan, After Terraform creates the plan", and then click Next. On the status window, just click Done.
+11. In the Select Organization window, choose your organization created, click Next. In the Workspace window, select the workspace you have created, choose "Post-plan, After Terraform creates the plan", and then click Next. On the status window, just click Done.
 ![alt text](/resources/pc-add-tc-workspace.png?raw=true)
 
-11. To verify the integration on Terraform Cloud side, go back to your created Workspace > Settings > Run Tasks, you should be able to see "prisma-cloud" added into your Terraform Cloud workspace.
+12. To verify the integration on Terraform Cloud side, go back to your created Workspace > Settings > Run Tasks, you should be able to see "prisma-cloud" added into your Terraform Cloud workspace.
 ![alt text](/resources/tc-verify-pc-integration.png?raw=true)
 
+13. Once verified, go back to the workspace main page, and click "Start new plan" OR you can click "Actions" > "Start new run" > choose "Plan only" as run type > click "Start run". 
+![alt text](/resources/tc-plan-only.png?raw=true)
+Don't worry if it fails, this is just to make sure the runs to be automated with future GitHub pull requests.
 
+Once completed, move on to the next section [here](/07-AddingRepoToPrismaCloud.md)

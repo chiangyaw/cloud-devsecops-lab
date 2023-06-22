@@ -43,4 +43,4 @@ The S3 bucket will be provisioned as per the Terraform plan. Once completed, you
 ![alt text](/resources/aws-s3-created.png?raw=true)
 
 # Congratulations!
-You have now completed setting up a GitHub repository, with Terraform Cloud & Prisma Cloud integration, and automated the security checks with configurable **Hard Fail** (if require) when a misconfiguration is identified. Head over to the next lab to investigate and fix the issues arising from the automated scans, as well as providing more tips for integrating security into the developer workflow without causing friction.
+You have now completed setting up a GitHub repository, with Terraform Cloud & Prisma Cloud integration, and automated the security checks with configurable **Hard Fail** (if require) when a misconfiguration is identified. Head over to the next lab to investigate and fix the issues arising from the automated scans, as well as providing more tips for integrating security into the developer workflow without causing friction. Move on to the next section [here](/09-InvestigatingWithPrismaCloud.md)

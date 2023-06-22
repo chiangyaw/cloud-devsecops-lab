@@ -38,3 +38,6 @@ checkov -f terraform/aws/s3.tf --bc-api-key $YOUR_BC_API_KEY --repo-id bridgecre
 ```
 Check out the findings as part of the scan. The results will show all the failed policies and link to guides explaining the rationale behind each misconfiguration and steps to fix them. Note the output also includes the filename and snippet of code that is misconfigured
 ![alt text](/resources/checkov_terragoat.png?raw=true)
+
+# Congratulations!
+You have now completed the IaC code scanning locally via Checkov! You can now move on to the next section [here](/06-ScanningwithTerraformCloud.md)

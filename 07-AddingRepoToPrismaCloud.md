@@ -14,3 +14,4 @@ In this section, you'll add a GitHub integration to automatically generate pull 
 **Note: Prisma Cloud will take some time to scan your newly added repository. Prisma cloud will scan your Terraform templates directly from GitHub and bring the results into Prisma Cloud. Once done, you will be able to see in Code Security > Projects.
 ![alt text](/resources/pc-codesec-projects.png?raw=true)
 
+Once completed, move on to the next section [here](/08-TestingPullRequest.md)

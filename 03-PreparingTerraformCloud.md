@@ -15,3 +15,5 @@ https://app.terraform.io/app/settings/tokens?source=terraform-login
 3. Copy the token generated on the Terraform Cloud portal, and paste it into the Cloud9 CLI. Once done, you should be logged into the Terraform Cloud on the Cloud9 CLI:
 
 ![Alt text](/resources/terraform-login-cli.png?raw=true)
+
+Once you are done setting up your Terraform Cloud environment, you can move on to the next section [here](/04-SettingUpPrismaCloud.md)

@@ -23,3 +23,5 @@ Using Prisma Cloud, VS Code, GitHub, Terraform Cloud, and AWS, we’ll get hands
 * Scan IaC files for misconfigurations locally
 * Set up CI/CD pipelines to automate security scanning and policy enforcement
 * Fix IaC security errors and AWS resource misconfigurations with Bridgecrew
+
+Click [here](/01-SettingUpAWSAccount.md) to get started!
