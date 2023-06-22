@@ -31,10 +31,16 @@ nothing to commit, working tree clean
 
 ## Run Checkov locally
 To demonstrate what kinds of security and compliance errors Prisma Cloud can identify in Terraform templates, start by using Checkov and send the results to the Prisma Cloud platform. 
+1. You will first need to add in your API keys you have gotten from Prisma Cloud in earlier section. export it as a variable with the following command (replace the prismaaccesskey & prismasecretkey):
+```
+export PRISMA_API_URL=https://api.sg.prismacloud.io
+export BC_API_KEY=<prismaaccesskey>::<prismasecretkey>
+```
+
 
 1. scan the `s3.tf` in the `aws` directory:
 ```
-checkov -f terraform/aws/s3.tf --bc-api-key $YOUR_BC_API_KEY --repo-id bridgecrewio/s3
+checkov -f terraform/aws/s3.tf --repo-id prismacloud/s3
 ```
 Check out the findings as part of the scan. The results will show all the failed policies and link to guides explaining the rationale behind each misconfiguration and steps to fix them. Note the output also includes the filename and snippet of code that is misconfigured
 ![alt text](/resources/checkov_terragoat.png?raw=true)
