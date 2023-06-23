@@ -41,4 +41,4 @@ For Event Engine, it will look like this:
 ![alt text](/resources/tc-plan-only.png?raw=true)
 Don't worry if it fails, this is just to make sure the runs to be automated with future GitHub pull requests.
 
-Once completed, move on to the next section [here](/07-AddingRepoToPrismaCloud.md)
+Once completed, move on to the next section [here](/08-AddingRepoToPrismaCloud.md)
