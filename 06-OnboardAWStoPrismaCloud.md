@@ -6,7 +6,7 @@ Prisma Cloud is able to provide comprehensive security from code to cloud. Other
 1. In the Prisma Cloud tenant, go to Settings > Cloud Accounts. Click Add Cloud Account and choose "Amazon Web Services".
 2. Click on Accounts, untick on Agentless Workload Scanning, and then click Next.
 ![alt text](/resources/pc-onboarding-1.png?raw=true)
-3. Input your AWS Account ID, and Account Name (you can put in your name/initial, such as bechong-AWS-Account). Untick Remediation by ticking the checkbox. Click “Create IAM Role”. This will prompt a new tab to create a CloudFormation stack for the IAM role.
+3. Input your AWS Account ID, and Account Name (put in your name/initial, such as *bechong*-AWS-Account). Untick Remediation by ticking the checkbox. Click “Create IAM Role”. This will prompt a new tab to create a CloudFormation stack for the IAM role.
 ![alt text](/resources/pc-onboarding-2.png?raw=true)
 
 4. Tick on “I acknowledge that AWS CloudFormation might create IAM resources with custom names”, and click Create Stack.
