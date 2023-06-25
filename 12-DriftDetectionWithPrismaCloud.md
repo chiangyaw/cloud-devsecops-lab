@@ -32,7 +32,7 @@ Make sure that you have applied the Terraform resources from the Pull Request se
 2. Scroll down to "Tags" and click Edit.
 ![alt text](/resources/aws-s3-properties-2.png?raw=true)
 
-3. Click "Add tag", type in "Drift for key, and "Created" for value. Click Save changes.
+3. Click "Add tag", type in "Drift for key, and "ThisisTheDrift" for value. Click Save changes.
 ![alt text](/resources/aws-s3-properties-3.png?raw=true)
 
 # Congratulations!

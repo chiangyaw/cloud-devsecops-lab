@@ -20,5 +20,5 @@ Providing feedback in IDEs and CI/CD pipelines provides valuable insights into t
 ![alt text](/resources/github-pr-merge.png?raw=true)
 
 # Congratulations!
-You have now built an automated IaC scanning workflow in a live environment and automated the fixing of an IaC template! Move on to the next section [here](/11-DriftDetectionWithPrismaCloud.md)
+You have now built an automated IaC scanning workflow in a live environment and automated the fixing of an IaC template! Move on to the next section [here](/12-DriftDetectionWithPrismaCloud.md)
 

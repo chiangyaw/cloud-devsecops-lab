@@ -36,4 +36,38 @@ We will also be using Yor, an open-srouce tool from Prisma Cloud (formally bridg
 wget -q -O - https://github.com/bridgecrewio/yor/releases/download/0.1.62/yor-0.1.62-linux-amd64.tar.gz | sudo tar -xvz -C /usr/bin
 ```
 
+### Connecting your Cloud9 IDE to GitHub
+In the following lab, we will need to be able to update your GitHub repository later through the Cloud9 IDE. Create a personal GitHub account and login to the account before proceeding on this section. Click [here](https://github.com/signup)
+1. Generate a RSA Key Pair with the following command. just keep everything else as default by click "Enter" throughout the process.
+```
+ssh-keygen -t rsa
+```
+![alt text](/resources/cloud9-generate-key.png?raw=true)
+
+2. Copy the Public Key from the file:
+```
+cat /home/ec2-user/.ssh/id_rsa.pub
+```
+
+3. Navigate to the GitHub portal, click the top right icon > Settings.
+![alt text](/resources/github-settings.png?raw=true)
+
+4. Click on "SSH and GPG Keys" and "New SSH keys".
+![alt text](/resources/github-create-ssh-keys.png?raw=true)
+
+5. Input a title (such as "cloud9-key") and paste in the Public Key. Click "Add SSH Key". You might be prompted to type in your password again, just type and proceed.
+![alt text](/resources/github-create-ssh-key-2.png?raw=true)
+
+6. Go back to the Cloud9 IDE terminal, start your ssh-agent in the background and add the ssh key into your ssh-agent:
+```
+eval $(ssh-agent -s)
+ssh-add /home/ec2-user/.ssh/id_rsa
+```
+
+7. Input your GitHub username & email address as part of the git config:
+```
+git config --global user.name <Your Username>
+git config --global user.email <you@example.com>
+```
+
 Once you are done setting up your Cloud9 IDE, you can move on to the next section [here](/03-PreparingTerraformCloud.md)
