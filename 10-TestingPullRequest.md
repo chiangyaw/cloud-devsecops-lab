@@ -1,6 +1,6 @@
 # Cloud DevSecOps Lab
 ## Test Pull Request
-1. Check that all three integrations are working by kicking off a pull request. Go back to your fork of the TerraGoat repo and select “Add file” -> “Create new file.” Set the path to ```terraform/simple_instance/s3.tf```. Add the following code:
+1. Check that all three integrations are working by kicking off a pull request. Go back to your ```simpleenv``` repo that you have created and select “Add file” -> “Create new file.” Set the path to ```terraform/simple_instance/s3.tf```. Add the following code:
 ```
 provider "aws" {
   region = "ap-southeast-1"
@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "prismaclouds3" {
   }
 }
 ```
-![alt text](/resources/github-add-new-tf.png?raw=true)
+![alt text](/resources/github-add-new-tf-2.png?raw=true)
 Click "Commit changes", select "Create a new branch for this commit and start a pull request", and click "Propose changes".
 ![alt text](/resources/github-propose-changes.png?raw=true)
 
@@ -23,13 +23,13 @@ Click "Commit changes", select "Create a new branch for this commit and start a 
 ![alt text](/resources/github-create-pr.png?raw=true)
 
 3. On the pull request page, you should see a few scans running and prisma-cloud-devsecops providing comments on the misconfigured items. 
-![alt text](/resources/github-pc-scan.png?raw=true)
-![alt text](/resources/github-scan-failed.png?raw=true)
-As part of this lab, you won't be required to fix all the violations. As for now, scroll to the bottom, click "Merge pull request" and "Confirm Merge". 
-![alt text](/resources/github-confirm-merge.png?raw=true)
+![alt text](/resources/github-pc-scan-2.png?raw=true)
+![alt text](/resources/github-scan-passed.png?raw=true)
+As part of this lab, you won't be required to fix all the violations if there is any. As for now, scroll to the bottom, click "Merge pull request" and "Confirm Merge". 
+![alt text](/resources/github-confirm-merge-2.png?raw=true)
 
 4. Go back to Terraform Cloud, go to the workspace that you have created, and under Overview, you should see the details on the Latest Run. Click on "See Details".
-![alt text](/resources/tc-latest-run-see-details.png?raw=true)
+![alt text](/resources/tc-latest-run-see-details-2.png?raw=true)
 
 5. On the details, you should see "post-plan passed" and if you click into it, click on "Details", it will open a new tab on Prisma Cloud, which give you the details on the scan.
 ![alt text](/resources/tc-details-post-plan.png?raw=true)

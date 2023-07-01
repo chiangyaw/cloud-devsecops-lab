@@ -30,10 +30,4 @@ In this tutorial, we will be using [Checkov](https://www.checkov.io/). Install C
 pip3 install checkov
 ```
 
-### Install Yor.io
-We will also be using Yor, an open-srouce tool from Prisma Cloud (formally bridgecrew) that helps add informative and consistent tags across infrastructure as code (IaC) frameworks.
-```
-wget -q -O - https://github.com/bridgecrewio/yor/releases/download/0.1.62/yor-0.1.62-linux-amd64.tar.gz | sudo tar -xvz -C /usr/bin
-```
-
 Once you are done setting up your Cloud9 IDE, you can move on to the next section [here](/03-PreparingTerraformCloud.md)

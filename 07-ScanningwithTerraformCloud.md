@@ -10,8 +10,8 @@ Prisma Cloud has a native integration with Terraform Cloud that leverages Sentin
 3. Choose version control workflow, and click Github.
 ![alt text](/resources/tc-vc-workflow.png?raw=true)
 ![alt text](/resources/tc-vc-github.png?raw=true)
-4. You will be prompted with a pop up window to install Terraform Cloud to your GitHub account, choose the correct organization, click Only select repositories, and choose the terragoat repository that you have just forked, and then click Install.
-![alt text](/resources/install-tc.png?raw=true)
+4. You will be prompted with a pop up window to install Terraform Cloud to your GitHub account, choose the correct organization, click Only select repositories, and choose the ```simpleenv``` repository that you have just created, and then click Install.
+![alt text](/resources/github-install-tc.png?raw=true)
 5. Back to the Terraform Cloud page, choose the repository, and click Create workspace.
 ![alt text](/resources/tc-create-workspace.png?raw=true)
 6. Once the workspace is created, click continue to workspace overview, and click Configure variables.
@@ -36,10 +36,10 @@ For Event Engine, it will look like this:
 ![alt text](/resources/pc-add-tc-token.png?raw=true)
 
 12. In the Select Organization window, choose your organization created, click Next. In the Workspace window, select the workspace you have created, choose "Post-plan, After Terraform creates the plan", and then click Next. On the status window, just click Done.
-![alt text](/resources/pc-add-tc-workspace.png?raw=true)
+![alt text](/resources/pc-add-tc-workspace-2.png?raw=true)
 
 13. To verify the integration on Terraform Cloud side, go back to your created Workspace > Settings > Run Tasks, you should be able to see "prisma-cloud" added into your Terraform Cloud workspace.
-![alt text](/resources/tc-verify-pc-integration.png?raw=true)
+![alt text](/resources/tc-verify-pc-integration-2.png?raw=true)
 
 14. Once verified, go back to the workspace main page, and click "Start new plan" OR you can click "Actions" > "Start new run" > choose "Plan only" as run type > click "Start run". 
 ![alt text](/resources/tc-plan-only.png?raw=true)
