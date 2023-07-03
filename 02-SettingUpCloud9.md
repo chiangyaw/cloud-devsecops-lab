@@ -1,4 +1,11 @@
 # Cloud DevSecOps Lab
+## Setting Up Your IDE
+As part of this workshop, you will need a Integrated Developement Environment (IDE). Prisma Cloud supports Code Security integration with VScode & IntelliJ. If you have these IDEs installed on your endpoint, you can use these IDEs to run through the workshop. You just need to install the latest ```Python``` and ```Checkov```. To install Checkov on Python, just run the following:
+```
+pip3 install checkov
+```
+Or else, you can provision AWS Cloud9 IDE as per the steps below.
+
 ## Setting Up AWS Cloud9
 AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
 1. Create a Cloud9 Environment with the following url:
@@ -7,8 +14,8 @@ https://ap-southeast-1.console.aws.amazon.com/cloud9control/home?region=ap-south
 3. Select the following on Create environment page:
     * Name: PrismaCloud-Workshop
     * Environment Type: New EC2 instance
-    * Instance Type: t2.medium
-![alt text](/resources/aws-create-cloud9.png?raw=true)
+    * Instance Type: t2.small
+![alt text](/resources/aws-create-cloud9-2.png?raw=true)
     Leave the rest as default and click Create.
 4. On the Environment page, click the environment that you have just created, and click Open in Cloud9.
 5. Understanding the IDE you have created. We have file tab on top where you can make changes to your code and we have a terminal at the bottom to run CLI commands.
