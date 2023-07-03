@@ -1,14 +1,17 @@
 # Cloud DevSecOps Lab
 ## Setting Up your AWS Account
-To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:
-```
-e8476example
-```
-To create the AWS account for the lab during the AWS event:
-1. Connect to the portal by clicking the button or browsing to https://dashboard.eventengine.run/. The following screen shows up. Enter the provided hash in the text box. The button on the bottom right corner changes to Accept Terms & Login. Click on that button to continue.
-![Alt text](/resources/event-engine-initial-screen.png?raw=true)
-2. Choose AWS Console, then Open AWS Console. This account will expire at the end of the workshop and all the resources created will be automatically deprovisioned. You will not be able to access this account after today.
-![Alt text](/resources/event-engine-dashboard.png?raw=true)
+As part of this workshop, you will need an AWS account, which can be either your own AWS account or utilize AWS account given from the event organizer. 
+
+If an AWS account is given to you from the event organizer, you should receive an email regarding the AWS account. The email might look like this:
+![alt text](/resources/aws-org-invite.png?raw=true)
+
+1. Connect to the given AWS account by clicking on the "Accept invitation" button, and you should be required to create a password and login to AWS Identity Center. Once you have logged in, you should be able to see an AWS account where you have access to:
+![alt text](/resources/aws-sso-signin-page.png?raw=true)
+
+As part of this workshop, you will be required to login to the AWS management console by clicking "Management console". You will also need to access to AWS via programmatic access, where you can click on "Command line or programmatic access". 
+
+2. To proceed, click on "Management console", where you will be signed into the AWS account provided to you.
+
 3. Use a single region for the duration of this workshop. This workshop supports the following regions:
 ```
 ap-southeast-1 (Asia Pacific - Singapore)
