@@ -4,6 +4,17 @@ In this final section, you'll switch gears and detect drift. Drift occurs when t
 
 This usually occurs during a major incident, where DevOps and SRE teams make manual changes to quickly solve the problem, such as opening up ports to larger CIDR blocks or turning off HTTPS to find the problem, or if there are knowledge or access control gaps that make fixing an issue in the cloud directly the easier option. If these aren’t reverted, they present security issues and it weakens the benefits of using IaC.
 
+### Change your repository to Private
+1. In GitHub, navigate to your repository, click on Settings. 
+![alt text](/resources/github-settings-1.png?raw=true)
+
+2. Scroll down to the Danger Zone, click on "Change visibility", click "Change to private", click "I want to make this repository private", "I have read and understand these effects", and "Make this repository private". You might need to key in your password to change this. 
+![alt text](/resources/github-danger-zone.png?raw=true)
+
+3. Once you are done, ensure that the repository is now private.
+![alt text](/resources/github-danger-zone-private.png?raw=true)
+
+
 ### Create Alert Rule to detect drift
 1. In Prisma Cloud, navigate to Alerts > Alert Rules, and click "Add Alert Rule".
 ![alt text](/resources/pc-create-alert-rule.png?raw=true)
