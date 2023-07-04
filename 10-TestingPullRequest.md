@@ -40,6 +40,7 @@ Now you have merged the pull request, a new resource (S3 bucket in this scenario
 ![alt text](/resources/tc-details-pre-plan.png?raw=true)
 ![alt text](/resources/pc-post-plan-result.png?raw=true)
 Currently, these open issues are configured as **Soft Fail**, therefore it is still possible to proceed to apply.
+Note: If you are not able to view the details on Prisma Cloud, there might be some permission issue due to lab provisioning, contact the lab instructor for assistance. 
 
 3. Scroll down on Terraform Cloud, click on "Confirm & Apply". Add a comment such as "creating new s3 bucket" and Click "Confirm Plan".
 ![alt text](/resources/tc-confirm-apply.png?raw=true)
