@@ -5,7 +5,7 @@ In Prisma Cloud:
 1. Delete your AWS account in Settings > Cloud Accounts.
 2. Delete the alert rule you have created in Alerts > Alert Rules.
 
-In the AWS Account:
+In AWS Account:
 1. Delete the Cloud9 IDE that you have created.
 2. Delete the S3 bucket that you have created.
 
