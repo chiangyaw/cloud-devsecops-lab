@@ -1,6 +1,6 @@
 # Cloud DevSecOps Lab
 ## Setting Up your AWS Account
-As part of this workshop, you will need an AWS account, which can be either your own AWS account or utilize AWS account given from the event organizer. 
+As part of this workshop, you will need an AWS account, which can be either your own AWS account or utilize AWS account given from the event organizer. We will be using the AWS account for Cloud9 IDE, and to deploy cloud resources as part of this workshop.
 
 If an AWS account is given to you from the event organizer, you should receive an email regarding the AWS account. The email might look like this:
 ![alt text](/resources/aws-org-invite.png?raw=true)
