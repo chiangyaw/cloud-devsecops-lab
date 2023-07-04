@@ -8,6 +8,7 @@ Prisma Cloud is able to provide comprehensive security from code to cloud. Other
 ![alt text](/resources/pc-onboarding-1.png?raw=true)
 3. Input your AWS Account ID, and Account Name (put in your name/initial, such as *bechong*-AWS-Account). Untick Remediation by ticking the checkbox. Click “Create IAM Role”. This will prompt a new tab to create a CloudFormation stack for the IAM role.
 ![alt text](/resources/pc-onboarding-2.png?raw=true)
+**Note: Once you click on "Create IAM Role", you will be re-directed to us-east-1 N.Virginia region. on the AWS console, click on top right region selection, change it back to ap-southeast-1 Singapore region.**
 
 4. Tick on “I acknowledge that AWS CloudFormation might create IAM resources with custom names”, and click Create Stack.
 ![alt text](/resources/aws-onboarding-1.png?raw=true)
