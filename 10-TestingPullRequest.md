@@ -36,16 +36,16 @@ Now you have merged the pull request, a new resource (S3 bucket in this scenario
 1. Go back to Terraform Cloud, go to the workspace that you have created, and under Overview, you should see the details on the Latest Run. Click on "See Details".
 ![alt text](/resources/tc-latest-run-see-details-2.png?raw=true)
 
-2. On the details, you should see "post-plan passed" and if you click into it, click on "Details", it will open a new tab on Prisma Cloud, which give you the details on the scan.
-![alt text](/resources/tc-details-post-plan.png?raw=true)
+2. On the details, you should see "Pre-plan passed" and if you click into it, click on "Details", it will open a new tab on Prisma Cloud, which give you the details on the scan.
+![alt text](/resources/tc-details-pre-plan.png?raw=true)
 ![alt text](/resources/pc-post-plan-result.png?raw=true)
 Currently, these open issues are configured as **Soft Fail**, therefore it is still possible to proceed to apply.
 
 3. Scroll down on Terraform Cloud, click on "Confirm & Apply". Add a comment such as "creating new s3 bucket" and Click "Confirm Plan".
 ![alt text](/resources/tc-confirm-apply.png?raw=true)
 ![alt text](/resources/tc-confirm-plan.png?raw=true)
-The S3 bucket will be provisioned as per the Terraform plan. Once completed, you will be able to see the S3 bucket resource in your AWS account.
+The S3 bucket will be provisioned as per the Terraform plan. Once completed, you will be able to see the S3 bucket resource in your AWS account by searching for "s3" on the search bar on top.
 ![alt text](/resources/aws-s3-created.png?raw=true)
 
 # Congratulations!
-You have now completed setting up a GitHub repository, with Terraform Cloud & Prisma Cloud integration, and automated the security checks with configurable **Hard Fail** (if require) when a misconfiguration is identified. Head over to the next lab to investigate and fix the issues arising from the automated scans, as well as providing more tips for integrating security into the developer workflow without causing friction. Move on to the next section [here](/11-InvestigatingWithPrismaCloud.md)
+You have now completed mering a pull request in a GitHub repository, with Terraform Cloud & Prisma Cloud integration, and automated the security checks with configurable **Hard Fail** (if require) when a misconfiguration is identified. Head over to the next lab to investigate and fix the issues arising from the automated scans, as well as providing more tips for integrating security into the developer workflow without causing friction. Move on to the next section [here](/11-InvestigatingWithPrismaCloud.md)

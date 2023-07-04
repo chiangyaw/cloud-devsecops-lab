@@ -35,8 +35,8 @@ For Event Engine, it will look like this:
 11. Choose Terraform Cloud (Run Tasks). In the Configure Account window, add the API token generated in the previous step. Click Next.
 ![alt text](/resources/pc-add-tc-token.png?raw=true)
 
-12. In the Select Organization window, choose your organization created, click Next. In the Workspace window, select the workspace you have created, choose "Post-plan, After Terraform creates the plan", and then click Next. On the status window, just click Done.
-![alt text](/resources/pc-add-tc-workspace-2.png?raw=true)
+12. In the Select Organization window, choose your organization created, click Next. In the Workspace window, select the workspace you have created, choose "Pre-plan, Before Terraform generates the plan", and then click Next. On the status window, just click Done.
+![alt text](/resources/pc-add-tc-workspace-3.png?raw=true)
 
 13. To verify the integration on Terraform Cloud side, go back to your created Workspace > Settings > Run Tasks, you should be able to see "prisma-cloud" added into your Terraform Cloud workspace.
 ![alt text](/resources/tc-verify-pc-integration-2.png?raw=true)
