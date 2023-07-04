@@ -47,4 +47,5 @@ git clone https://github.com/bridgecrewio/terragoat.git
 # Congratulations!
 You have now successfully integrated Checkov and Prisma Cloud into your IDE. With the integration, you will be able to identify any misconfiguration based on the Build policy defined in Prisma Cloud, even before committing the IaC code to your repository. By Shifting Left on security, this helps organization to identify security issues early in the development lifecycle, reducing the overall cost & time for the entire delivery process.
 
-You have reached the end of the workshop. Thank you for your time and hope to see you again!
+Last but not least, it is always advisable to clean things up after a lab session! Click [here](/14-CleaningUp.md) to proceed.
+

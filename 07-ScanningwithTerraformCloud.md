@@ -1,6 +1,6 @@
 # Cloud DevSecOps Lab
 ## Integrating Terraform Cloud & Prisma Cloud 
-Prisma Cloud has a native integration with Terraform Cloud that leverages Sentinel for policy controls. This means any commit that is pushed to Terraform Cloud will run through a Prisma Cloud Code Security scan, identifying policy violations, blocking misconfigured builds, and detecting drift, all from the same place that you collaborate on Terraform templates, automate deployments, and store state.
+Prisma Cloud has a native integration with Terraform Cloud that leverages Run Task for security controls. This means any commit that is pushed to Terraform Cloud will run through a Prisma Cloud Code Security scan, identifying policy violations, blocking misconfigured builds through hard-fail, and detecting drift, all from the same place that you collaborate on Terraform templates, automate deployments, and store state. As part of this lab, we have pre-configured the policy to soft-fail, which means it will still pass through even though there is a violation of policy.
 
 1. Go to Terraform Cloud portal. If this is your first time on Terraform Cloud, you will see the First Time Wizard, where you need to click "Start from Scratch", input a organization name (any name will do), email address and click "Create Organization".
 ![alt text](/resources/tc-create-org.png?raw=true)

@@ -1,6 +1,6 @@
 # Cloud DevSecOps Lab
 ## Create a new repository
-To set up a small demo environment, you will need prepare a Terraform repository, which will provision a RDS. Make sure you have logged into your GitHub personal account before the following action.
+To set up a small demo environment for this workshop, you will need prepare a Terraform repository, which will provision a RDS. Make sure you have logged into your GitHub personal account before the following action.
 1. Head over to your [GitHub dashboard](https://github.com/dashboard), and click "New".
 ![alt text](/resources/github-new-repo.png?raw=true)
 
@@ -52,7 +52,7 @@ nothing to commit, working tree clean
 ```
 
 ## Run Checkov locally
-To demonstrate what kinds of security and compliance errors Prisma Cloud can identify in Terraform templates, start by using Checkov and send the results to the Prisma Cloud platform. 
+To demonstrate what kinds of security and compliance errors Prisma Cloud can identify in Terraform templates, start by using Checkov and send the results to the Prisma Cloud platform. You are able to run this locally to have a quick scan on the templates, and this can be a form of integration to your CI/CD tools as well if your CI/CD tool is not supported by Prisma Cloud natively. 
 1. You will first need to add in your API keys you have gotten from Prisma Cloud in earlier section. export it as a variable with the following command (replace the prismaaccesskey & prismasecretkey):
 ```
 export PRISMA_API_URL=https://api.sg.prismacloud.io
