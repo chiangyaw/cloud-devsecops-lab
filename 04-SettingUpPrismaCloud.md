@@ -27,9 +27,10 @@ There are situation where you are not able to access to Prisma Cloud as you do n
 1. Click on the Prisma Cloud Legacy Sign In Link [here](https://app.sg.prismacloud.io/legacy/signin).
 
 2. Click on "Forgot Password?" and input the email you provided as part the workshop registration (it should be your work email). Click "Send Link".
+
 ![alt text](/resources/pc-legacy-signin.png?raw=true)
 
 3. You should receive the password reset email, where you are able to update your password. Once done, use the new password to login to Prisma Cloud.
 ![alt text](/resources/pc-reset-password.png?raw=true)
 
-Once you are able to login to Prisma Cloud, continue with the steps on 
+Once you are able to login to Prisma Cloud, continue with the steps on top.
