@@ -20,7 +20,7 @@ Click "Commit changes", select "Create a new branch for this commit and start a 
 ![alt text](/resources/github-propose-changes.png?raw=true)
 
 2. On the comparing changes page, click "Create pull request". On Open a pull request page, click Create pull request.
-![alt text](/resources/github-create-pr.png?raw=true)
+![alt text](/resources/github-create-pr-2.png?raw=true)
 
 3. On the pull request page, you should see a few scans running and prisma-cloud-devsecops providing comments on the misconfigured items. 
 ![alt text](/resources/github-pc-scan-2.png?raw=true)
