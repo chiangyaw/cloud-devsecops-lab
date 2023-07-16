@@ -13,7 +13,7 @@ Prisma Cloud has a native integration with Terraform Cloud that leverages Run Ta
 4. You will be prompted with a pop up window to install Terraform Cloud to your GitHub account, choose the correct organization, click Only select repositories, and choose the ```simpleenv``` repository that you have just created, and then click Install.
 ![alt text](/resources/github-install-tc.png?raw=true)
 5. Back to the Terraform Cloud page, choose the repository, and click Create workspace.
-![alt text](/resources/tc-create-workspace.png?raw=true)
+![alt text](/resources/tc-create-workspace-2.png?raw=true)
 6. Once the workspace is created, click continue to workspace overview, and click Configure variables.
 ![alt text](/resources/tc-configure-variables.png?raw=true)
 7. You will need to add your AWS Account details as environment variables called 'AWS_ACCESS_KEY_ID' and 'AWS_SECRET_ACCESS_KEY'. If you got the account from AWS event using AWS Event Engine, include the 'AWS_SESSION_TOKEN'. If you are not sure where to obtain these information, refer to [this guide](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
